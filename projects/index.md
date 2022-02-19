@@ -1,6 +1,7 @@
 ---
 layout: project
-title: All Projects
-excerpt: "A List of Projects"
+title: Test project post
+excerpt: "this is a test post"
 comments: false
 ---
+# test
