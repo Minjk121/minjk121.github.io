@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bruh post"
+title: "tmp post"
 date: 2020-06-20
 excerpt: "This is a test post!"
 tags: [sample post, test]
