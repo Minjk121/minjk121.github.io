@@ -5,7 +5,7 @@ excerpt: "showing all projects"
 comments: false
 ---
 
-<body>
+<!-- <body>
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
@@ -25,4 +25,4 @@ comments: false
             </div>
         </div>
     </header>
-</body>
+</body> -->
