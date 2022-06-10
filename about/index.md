@@ -8,7 +8,7 @@ comments: false
 
 ## Hello
 
-I am a junior studying electrical and comptuer engineering at [Cornell University](https://www.cornell.edu/). I transferred from the [Cooper Union for the Advancement of Science and Art](https://cooper.edu/welcome) located in New York City in 2020. I will document projects/researches on here as I work on.
+I am a senior studying electrical and comptuer engineering at [Cornell University](https://www.cornell.edu/). I will document projects/researches on here as I work on.
 Thank you for reading!
 
 ## Contact
