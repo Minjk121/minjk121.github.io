@@ -6,7 +6,6 @@ comments: false
 ---
 
 <body>
-    {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
@@ -26,5 +25,4 @@ comments: false
             </div>
         </div>
     </header>
-    {% include scripts.html %}
 </body>
