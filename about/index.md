@@ -13,5 +13,6 @@ My name is Minjung, and I am a senior studying Electrical and Comptuer Engineeri
 
 ## Contact
 Email: mk2592@cornell.edu
+
 Linked-in: https://www.linkedin.com/in/minjung-kwon/
     
