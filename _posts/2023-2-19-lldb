@@ -1,0 +1,36 @@
+---
+layout: post
+title: "LLDB Tutorial"
+date: 2023-2-19
+excerpt: "Why LLDB?"
+tags: [lldb, c]
+comments: false
+---
+
+What is lldb and why are we using it?
+[lldb](https://lldb.llvm.org) is an interactive debugging tool, similar to gdb (gnu debugger).
+It is useful when finding bugs or debugging in C/C++. The reason why I use lldb is simple because gdb does not work on MacOS (Apple Silicon).
+
+It catches the segmentation fault better than just running the test cases. 
+Segmentation fault or segfault happens when an OS tries to access a restricted area of memory. 
+In other words, it happens due to error involved with pointers, malloc / calloc, free etc. 
+
+I found it very useful when I tried to debug an segfault error caused by dereferencing a null pointer.
+
+For a simple guide, after setting up lldb, compile with -g flag or build.
+Then, run the command "lldb ./<output file>" to use the tool.
+If you are getting "invalid target" error, then it means you are not specifying the output/object file.
+
+- Start lldb: '''lldb ./test'''
+- Set a break point: '''b <file>.c:<line#>'''
+- run: '''r'''
+- Step into: ''' s '''
+- Step over: ''' n '''
+- Back trace: '''bt'''
+  - back trace is a record that shows application's movement in stack form
+- Frame: '''f'''
+  - Select frame 9: '''f 9'''
+  
+You can type '''help''' to look up more commands or this [link](https://lldb.llvm.org/use/map.html) to compare with gdb commands.
+
+
