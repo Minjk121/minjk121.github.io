@@ -8,6 +8,10 @@ comments: false
 
 ## Hello
 
+<p align="center">
+    <img src="../projects/mjk_profile.jpg" width="50%" height="50%">
+</p>
+
 My name is Minjung, and I am a senior studying Electrical and Comptuer Engineering at [Cornell University](https://www.cornell.edu/). I am minoring in Computer Science and in Early ECE M.Eng. Program. I am currently TAing ECE5725 and working as a peer advisor. I also have been working in Uris & Olin library for two years and part of the Cornell Maker Club. I will document projects/researches on here as I work on.
 
 
