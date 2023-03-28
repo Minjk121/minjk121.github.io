@@ -5,9 +5,9 @@ date:   2019-11-28
 excerpt: "Digital Logic Design Project"
 project: true
 tag:
-- AI
-- Google
-- Breakthrough AI project
+- DLD
+- Traffic Light
+- Circuits
 comments: false
 ---
 
