@@ -18,7 +18,7 @@ I worked at Apple as a SWE intern in 2022, and I'm currently seeking for 2023 in
 
 ## Contact me
 
-[Email](mk2592@cornell.edu)
+[Email](mailto:mk2592@cornell.edu)
 [LinkedIn](https://www.linkedin.com/in/minjung-kwon/)
 
 ## More About me
