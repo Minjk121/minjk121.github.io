@@ -65,7 +65,7 @@ The circuit includes two timers: 1 Hz and 2 Hz. 1Hz timer is connected to the CD
 
 Yes!
 
-![trafficlight update](../projects/update.HEIC)
+![trafficlight update](../projects/update.jpg)
 
 
 
