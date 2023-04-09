@@ -71,12 +71,11 @@ The physical lock itself was built out of an Arduino, a voltage reader, and a se
 </p>
 
 ### Videos
-Correct Combination:
-https://photos.app.goo.gl/DyKyMQ9vKb8Dp5eu9 
-Wrong Combination:
-https://photos.app.goo.gl/Hs5SidimMms11Ts28 
-Display for inputting password:
-https://photos.app.goo.gl/Z1Q1sPFoitdotZmM6 
+[Correct Combination](https://photos.app.goo.gl/DyKyMQ9vKb8Dp5eu9)
+
+[Wrong Combination](https://photos.app.goo.gl/Hs5SidimMms11Ts28)
+
+[Display for inputting password](https://photos.app.goo.gl/Z1Q1sPFoitdotZmM6 )
 
 ### Team
 Minjung Kwon, Esther Whang
