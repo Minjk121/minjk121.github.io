@@ -9,10 +9,14 @@ comments: false
 ---
 
 # Vault Lock System
+
 We aimed to recreate such a system and build physical, working safely. A vault has three main parts: a way to set a password, a way to store that password, and a way to check if any inputted passwords are the correct password. Through the use of IC chips and other components that we learned about over the course of the semester, it is possible to build a working vault lock system. By simplifying the password input into a 4-bit coordinate system and taking advantage of shift registers, we were able to build a system that was able to fulfill each of the components of a working vault. 
 <p align="center">
     <img src="../projects/lock_4.png" width="50%" height="50%">
 </p>
+
+### Team
+Minjung Kwon, Esther Whang
 
 ### User Interface
 We designed the vault to take a password input from a 3 by 3 grid similar to the ones used in Android phones. Initially, the user would press the Enter switch and input any combination of 8 locations. They would then set that combination by pressing the Set switch and the box would lock. To unlock the vault, the user must press enter again and input the correct combination. If the user succeeds, then the Arduino system will unlock the door when the user presses the Check switch. An incorrect input would set off a loud alarm, exposing the thief.
@@ -77,5 +81,3 @@ The physical lock itself was built out of an Arduino, a voltage reader, and a se
 
 [Display for inputting password](https://photos.app.goo.gl/Z1Q1sPFoitdotZmM6 )
 
-### Team
-Minjung Kwon, Esther Whang
