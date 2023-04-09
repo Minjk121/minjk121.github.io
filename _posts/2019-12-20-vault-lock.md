@@ -26,7 +26,7 @@ The password set system takes the input from the 3 by 3 grid of switches and out
 
 ### Switch the input to 4-bit number
 <p align="center">
-    <img src="../projects/lock_2.png" width="50%" height="50%">
+    <img src="../projects/lock_3.png" width="50%" height="50%">
 </p>
 In order to do any kind of logic with the password, we first had to convert the location of each button into a binary number. We achieved this by designing a coordinate system for the 3 by 3 switches and having four D-type Flip Flops output the corresponding coordinates whenever a switch is pressed. We designed the coordinate system so that each button corresponds to a 4-bit number, the first two bits being the coordinate for the row and the second two bits being the coordinate for the column of the button. The exact coordinates are shown in the image above. Note that 00 was excluded because 0000 would mean that no button was pressed.
 
