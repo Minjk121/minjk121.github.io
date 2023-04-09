@@ -43,6 +43,8 @@ By dividing the duration of green light into two, its binary number should be tr
 These outputs are connected to the decoder for a 7-segment display (CD4543) with a common cathode to show pedestrian lights.
 Additionally, the CD4028 decoder is added to control the LEDs. 
 
+![trafficlight explain](../projects/specifics.JPG)
+
 
 ### Schematics
 Based on the design, the schematics are created. It includes the MOD-5 counter with D flip flops, AND gates, XOR gates, MUXs, and the decoder for a 7-segment display (CD4543) with a common cathode to show pedestrian lights.
@@ -52,9 +54,18 @@ Based on the design, the schematics are created. It includes the MOD-5 counter w
 
 The circuit includes two timers: 1 Hz and 2 Hz. 1Hz timer is connected to the CD4029 counter to count down in exact seconds, and 2 Hz timer is connected to the Green Arrow LEDs. To build these timers, a 4.7 µF capacitor, a 10 KΩ resistor R1, and a 150 KΩ resistor for R2 are used for 1 Hz of frequency, and a 10 µF capacitor, a 6.8 KΩ resistor for R1, and a 33 KΩ resistor for R2 are used for 2 Hz of frequency.
 
-### Videos
+### Demo Videos
 
 
 [Traffic Light System with Override](https://photos.app.goo.gl/o4Ym9V5aBbDKFEjX7)
 
 [60-second Traffic Light - without Override](https://photos.app.goo.gl/65oabXMogcXNZXeMA)
+
+### Is it still working?
+
+Yes!
+
+![trafficlight update](../projects/update.HEIC)
+
+
+
