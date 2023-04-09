@@ -32,6 +32,18 @@ Given the specific durations, 4 MUXs are made to give jam inputs in the down cou
 
 The variable E represents the cycle. E = 0 means the first cycle, and E = 1 shows the second cycle. Moreover, the duration of the green signal is divided into two states, 13 and 6 seconds for the first cycle, and 15 and 5 seconds for second, in order to represent time in 4 bits and make it able to override by skipping the state. Whenever the override button is pressed, if it’s third state or the leftmost bit of t in binary is 1, it skips to the next state and gives input of 6 seconds to the 4029 counter.
 
+To repeat 5 patterns of lights, the MOD-5 counter is created by using three D-type flip flops (CD4013) which give output as Qa, Qb, and Qc. MOD-5 counter provides binary outputs from 000 to 100 and repeats as a loop. This binary output allows 4 MUXs to change a state by controlling inputs of each multiplexer. The logic for creating the MOD-5 counter includes 2 AND gates and 1 XOR gate.
+
+For controlling the number of cycles, another D Flip Flop is used. It functions to store the value and changes the variable E whenever MOD-5 repeats or after MOD-5 is equal to 100 (QcQbQa). Therefore, the clock pin of the flip flop is connected to Qc* from the MOD-5. Q pin of the flip flop is connected to the E input pins of MUXs, and the Q* pin is connected to E*.
+
+For setting an initial condition and an override, set and reset values of D Flip Flops are reset. Two momentary buttons are used for each function. Set pins of D Flip Flops are grounded and reset pins are connected to the buttons. The button is connected to the power and other sides are connected to the ground to avoid a short circuit. When the button is pressed, the button sends a high voltage to reset the pin in order to preset the D value in the flip flop to zero. 
+
+By dividing the duration of green light into two, its binary number should be transformed in order to display from 12 to 0. The last 6 seconds of the third state, the first part of green light, should be changed to the numbers 12 to 7, while the second part of green light should not be transformed. This transformation is held by adding 3 MUXs. By comparing the binary numbers from 6 to 1(QdQcQbQa) and 12 to 7 (DdDcDbDa), it is noticeable that the rightmost bits of both numbers are the same (Qa = Da). For other bits, three MUXs are used with a function of D as an input. The variable D is an output from the D MUX. D = 1 means the third state which is overridable. This allows creating a function of D as input. When D = 0, the output of the MUXs should be QdQcQbQa. When D = 1, the output should be DdDcDbDa.
+
+These outputs are connected to the decoder for a 7-segment display (CD4543) with a common cathode to show pedestrian lights.
+Additionally, the CD4028 decoder is added to control the LEDs. 
+
+
 ### Schematics
 Based on the design, the schematics are created. It includes the MOD-5 counter with D flip flops, AND gates, XOR gates, MUXs, and the decoder for a 7-segment display (CD4543) with a common cathode to show pedestrian lights.
 ![trafficlight schematics](../projects/traffic_light_3.png)
