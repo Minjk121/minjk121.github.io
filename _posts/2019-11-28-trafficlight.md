@@ -85,5 +85,5 @@ The circuit includes two timers: 1 Hz and 2 Hz. 1Hz timer is connected to the CD
 Yes!
 
 <p align="center">
-    <img src="../projects/updates.jpg" width="50%" height="50%">
+    <img src="../projects/updates.jpg" width="30%" height="30%">
 </p>
