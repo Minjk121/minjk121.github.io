@@ -12,9 +12,9 @@ comments: false
     <img src="../projects/mjk_profile.jpg" width="50%" height="50%">
 </p>
 
-My name is Minjung, and I am a senior and M.Eng. student studying Electrical and Comptuer Engineering at [Cornell University](https://www.cornell.edu/). I am minoring in Computer Science and in Early ECE M.Eng. Program. 
+My name is Minjung, and I am a senior and M.Eng. student studying Electrical and Comptuer Engineering at [Cornell University](https://www.cornell.edu/). I am minoring in Computer Science and in the Early ECE M.Eng. Program. 
 
-I worked at Apple as a SWE intern in 2022, and I'm currently seeking for 2023 internship!
+I worked at Apple as a SWE intern in 2022, and I will be working at Intel as a System Validation Engineering intern this summer!
 
 ## Contact me
 
@@ -23,9 +23,10 @@ I worked at Apple as a SWE intern in 2022, and I'm currently seeking for 2023 in
 
 ## More About me
 
-I am currently TAing [ECE5725](https://skovira.ece.cornell.edu/ece5725/) and working as a [peer advisor](https://www.engineering.cornell.edu/students/undergraduate-students/advising/peer-advisors/meet-peer-advisors) @ CornellEng and as a library assistant @ Uris & Olin library. 
+I am currently assisting [ECE5725](https://skovira.ece.cornell.edu/ece5725/) as a TA. 
+I worked as a [peer advisor](https://www.engineering.cornell.edu/students/undergraduate-students/advising/peer-advisors/meet-peer-advisors) @ CornellEng and as a library assistant @ Uris & Olin library. 
 
-Also, check out the [Cornell Maker Club](https://makerclub.ece.cornell.edu). This year, we organized the 2023 Make-A-Thon!
+Also, I am part of the [Cornell Maker Club](https://makerclub.ece.cornell.edu). This year, we organized the 2023 Make-A-Thon!
     
     
 
