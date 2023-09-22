@@ -9,24 +9,32 @@ comments: false
 ## Hello
 
 <p align="center">
-    <img src="../projects/mjk_profile.jpg" width="50%" height="50%">
+    <img src="../projects/idphoto.jpeg" width="50%" height="50%">
 </p>
 
-My name is Minjung, and I am a senior and M.Eng. student studying Electrical and Comptuer Engineering at [Cornell University](https://www.cornell.edu/). I am minoring in Computer Science and in the Early ECE M.Eng. Program. 
+My name is Minjung, and I am a Master of Engineering student studying Electrical and Computer Engineering (ECE) at Cornell University. I graduated with a Bachelor's degree in ECE with a Computer Science minor at Cornell in May 2023. 
+As an Early M.Eng. program student, I will be graduating in December 2023 with a Master's degree in ECE.
 
-I worked at Apple as a SWE intern in 2022, and I will be working at Intel as a System Validation Engineering intern this summer!
+## More about me
+
+I am currently working as a Graduate Teaching Assistant in a Master-level course, called Design with Embedded Operating Systems ([ECE5725](https://skovira.ece.cornell.edu/ece5725/)).
+With schoolwork, I work as a Systems Validation Engineering Intern at Intel Programmable Solutions Group (PSG). 
+<br>
+Also, I am part of the E-Board at [Cornell Maker Club](https://makerclub.ece.cornell.edu). This year, we organized the 2023 Make-A-Thon.
+My interests lie in embedded/firmware or low-level software. I'm actively looking for a full-time job after graduation in December 2023.
+
+### More More about me
+Download my resume to learn more about me.
+<a href="downloadURL" target="Download Resume" />
+Thank you for visiting my website!
+
 
 ## Contact me
 
-[Email](mailto:mk2592@cornell.edu)
+[Email](mailto:mk2592@cornell.edu) <br>
 [LinkedIn](https://www.linkedin.com/in/minjung-kwon/)
 
-## More About me
 
-I am currently assisting [ECE5725](https://skovira.ece.cornell.edu/ece5725/) as a TA. 
-I worked as a [peer advisor](https://www.engineering.cornell.edu/students/undergraduate-students/advising/peer-advisors/meet-peer-advisors) @ CornellEng and as a library assistant @ Uris & Olin library. 
-
-Also, I am part of the [Cornell Maker Club](https://makerclub.ece.cornell.edu). This year, we organized the 2023 Make-A-Thon!
     
     
 
