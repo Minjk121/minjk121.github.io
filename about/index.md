@@ -27,6 +27,7 @@ Also, I am part of the E-Board at [Cornell Maker Club](https://makerclub.ece.cor
 
 ### More More about me
 Download my resume to learn more about me : [RESUME](https://minjk121.github.io/about/Resume_09.22.23.docx)
+<br>
 Thank you for visiting my website!
 
 
