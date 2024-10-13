@@ -26,7 +26,7 @@ With schoolwork, I also worked as a Systems Validation Engineering Intern at Int
 Also, I was part of the E-Board at [Cornell Maker Club](https://makerclub.ece.cornell.edu). This year, we organized the 2023 Make-A-Thon.
 
 ### More More about me
-Download my resume to learn more about me : [RESUME](https://minjk121.github.io/about/Resume_09.22.23.docx)
+Download my resume to learn more about me : [RESUME](https://minjk121.github.io/about/Resume_10.13.24.docx)
 <br>
 Thank you for visiting my website!
 
