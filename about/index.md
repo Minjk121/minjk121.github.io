@@ -8,10 +8,6 @@ comments: false
 
 ## Hello
 
-<p align="center">
-    <img src="../projects/idphoto.jpeg" width="50%" height="50%">
-</p>
-
 My name is Minjung, and I studied Electrical and Computer Engineering at Cornell University. I graduated with both bachelor's and master's degrees. My interests lie in operating systems, embedded systems, and low-level software. I enjoy learning new things!
 
 <br>
