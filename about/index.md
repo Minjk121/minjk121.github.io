@@ -20,6 +20,8 @@ I worked as a Graduate Teaching Assistant in a Master-level course, called Desig
 With schoolwork, I worked as a Systems Validation Engineering Intern at Intel Programmable Solutions Group (PSG). 
 <br>
 Also, I was part of the E-Board at [Cornell Maker Club](https://makerclub.ece.cornell.edu).
+[![Watch the video](https://youtu.be/vyewIHxMP0Q?si=CcvbVyHYVeficGkh)
+
 
 ### More More about me
 Download my resume to learn more about me : [RESUME](https://minjk121.github.io/about/Resume_Minjung.pdf)
