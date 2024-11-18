@@ -34,6 +34,7 @@ Thank you for visiting my website!
 [Email](mailto:mk2592@cornell.edu) <br>
 [LinkedIn](https://www.linkedin.com/in/minjung-kwon/)
 
+### Thank you for visiting my website :)
 
     
     
