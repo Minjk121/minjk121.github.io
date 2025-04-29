@@ -22,128 +22,182 @@
     <main>
         <section id="projects">
             <h2>Projects</h2>
-            <p>Here are a few projects I've worked on. Click images or links for details.</p>
+            <p>Click on a card to view the project details, webpage, or video.</p>
 
-            <!-- MEng Project -->
-            <div class="project">
-                <h3>MEng Project: Run Hide Activate</h3>
-                <p>RHA MEng Poster and details.</p>
-                <a href="https://drive.google.com/file/d/1-PkryLHeFyuD3ueepHlTen7bXUpKw_Qe/view?usp=drive_link" target="_blank" class="project-preview-link">
-                    <img src="images/poster.png" alt="RHA MEng Poster Preview"> <!-- UPDATE IMAGE PATH -->
-                    <span>View Poster</span>
+            <!-- Grid Container for Project Cards -->
+            <div class="projects-grid">
+
+                <!-- MEng Project Card -->
+                <a href="https://drive.google.com/file/d/1-PkryLHeFyuD3ueepHlTen7bXUpKw_Qe/view?usp=drive_link" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                        <img src="images/poster.png" alt="RHA MEng Poster Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>MEng: Run Hide Activate</h3>
+                            <p>View MEng Poster & Details.</p>
+                        </div>
+                    </div>
                 </a>
-            </div>
 
-            <!-- FPGA Projects -->
-            <div class="project">
-                <h3>FPGA Projects (DE1-SoC)</h3>
-                <p>Includes Dancing Boids, Drum Synthesis, Mandelbrot Visualizer, and ODE Solver.</p>
-                <div class="project-previews-container">
-                    <a href="https://ryanchantech.github.io/ECE5760-Website/" target="_blank" class="project-preview-link">
+                <!-- FPGA: Dancing Boids Card -->
+                <a href="https://ryanchantech.github.io/ECE5760-Website/" target="_blank" class="project-card-link">
+                    <div class="project-card">
                         <img src="images/dreamteam.png" alt="Dancing Boids Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Dancing Boids</span>
-                    </a>
-                    <a href="https://youtu.be/Bqm-NOaz5Oo" target="_blank" class="project-preview-link">
+                        <div class="card-content">
+                            <h3>FPGA: Dancing Boids</h3>
+                            <p>DE1-SoC Project Webpage.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- FPGA: Drum Synthesis Card -->
+                <a href="https://youtu.be/Bqm-NOaz5Oo" target="_blank" class="project-card-link">
+                    <div class="project-card">
                         <img src="images/drum.jpg" alt="Drum Synthesis Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Drum Synthesis</span>
-                    </a>
-                    <a href="https://youtu.be/ddcsT2vc6rI" target="_blank" class="project-preview-link">
+                        <div class="card-content">
+                            <h3>FPGA: Drum Synthesis</h3>
+                            <p>Multiprocessor implementation video.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- FPGA: Mandelbrot Card -->
+                 <a href="https://youtu.be/ddcsT2vc6rI" target="_blank" class="project-card-link">
+                    <div class="project-card">
                         <img src="images/mandel.jpg" alt="Mandelbrot Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Mandelbrot Set</span>
-                    </a>
-                    <a href="https://youtu.be/chxQVyeJzqI" target="_blank" class="project-preview-link">
+                        <div class="card-content">
+                            <h3>FPGA: Mandelbrot Set</h3>
+                            <p>Hardware visualizer video.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- FPGA: ODE Solver Card -->
+                <a href="https://youtu.be/chxQVyeJzqI" target="_blank" class="project-card-link">
+                    <div class="project-card">
                         <img src="images/butterfly.jpg" alt="ODE Solver Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>ODE Solver</span>
-                    </a>
-                </div>
-            </div>
+                        <div class="card-content">
+                            <h3>FPGA: ODE Solver</h3>
+                            <p>Hardware solver video.</p>
+                        </div>
+                    </div>
+                </a>
 
-            <!-- Embedded OS Project -->
-            <div class="project">
-                <h3>Embedded Operating Systems: Campus Congestion</h3>
-                <p>Published in CIRCUIT CELLAR 395 JUNE 2023!</p>
-                 <div class="project-previews-container">
-                    <a href="https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2022_Projects/Wednesday%20May%2018/Campus%20Congestion/W_ei53_mk2592/index.html" target="_blank" class="project-preview-link">
+                <!-- Embedded OS: Webpage Card -->
+                 <a href="https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2022_Projects/Wednesday%20May%2018/Campus%20Congestion/W_ei53_mk2592/index.html" target="_blank" class="project-card-link">
+                    <div class="project-card">
                         <img src="images/congestion.jpg" alt="Campus Congestion Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Project Webpage</span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1x7x5IOK-Kil106LvSahxZvkjxLrkRrFR/view?usp=sharing" target="_blank" class="project-preview-link">
-                        <img src="images/circuitcellar.png" alt="Circuit Cellar Article Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Circuit Cellar Article</span>
-                    </a>
-                </div>
-            </div>
+                        <div class="card-content">
+                            <h3>Embedded OS: Campus Congestion</h3>
+                            <p>Project webpage for ECE5725.</p>
+                        </div>
+                    </div>
+                </a>
 
-            <!-- Microcontroller Projects -->
-            <div class="project">
-                <h3>Microcontroller Projects (RP2040)</h3>
-                <p>Includes Spatial Audio, Boids and Bees, and PID Control.</p>
-                <div class="project-previews-container">
-                    <a href="https://pages.github.coecis.cornell.edu/yw575/ECE4760.github.io/#" target="_blank" class="project-preview-link">
+                <!-- Embedded OS: Article Card -->
+                <a href="https://drive.google.com/file/d/1x7x5IOK-Kil106LvSahxZvkjxLrkRrFR/view?usp=sharing" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                         <img src="images/circuitcellar.png" alt="Circuit Cellar Article Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>Circuit Cellar Article</h3>
+                            <p>Published article on Campus Congestion.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Microcontroller: Spatial Audio Card -->
+                <a href="https://pages.github.coecis.cornell.edu/yw575/ECE4760.github.io/#" target="_blank" class="project-card-link">
+                    <div class="project-card">
                         <img src="images/spatial.png" alt="Spatial Audio Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Spatial Audio</span>
-                    </a>
-                    <a href="https://youtu.be/63pg6Ao5Tq0" target="_blank" class="project-preview-link">
-                        <img src="images/boids.jpg" alt="Boids and Bees Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Boids & Bees Video</span>
-                    </a>
-                     <a href="https://youtu.be/TbDa0rs1rJg" target="_blank" class="project-preview-link">
-                        <img src="images/pid.jpg" alt="PID Control Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>PID Control Video</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Fast Robots Project -->
-             <div class="project">
-                <h3>Fast Robots Project</h3>
-                <p>Fast Autonomous Car with sensors & Bluetooth.</p>
-                 <a href="https://minjk121.github.io/ECE4960/" target="_blank" class="project-preview-link">
-                    <img src="images/robot.jpeg" alt="Fast Robot Preview"> <!-- UPDATE IMAGE PATH -->
-                    <span>Fast Robot Webpage</span>
+                        <div class="card-content">
+                            <h3>RP2040: Spatial Audio</h3>
+                            <p>Project webpage for ECE4760.</p>
+                        </div>
+                    </div>
                 </a>
-            </div>
 
-            <!-- AI/Google Project -->
-            <div class="project">
-                <h3>Break Through AI X Google Project: TODDLE</h3>
-                <p>Too-Distracted-Didn't-Listen-Enough.</p>
-                <a href="https://minjk121.github.io/toddle/" target="_blank" class="project-preview-link">
-                    <img src="images/toddle.png" alt="TODDLE Project Preview"> <!-- UPDATE IMAGE PATH -->
-                    <span>TODDLE Project Page</span>
+                <!-- Microcontroller: Boids/Bees Card -->
+                <a href="https://youtu.be/63pg6Ao5Tq0" target="_blank" class="project-card-link">
+                     <div class="project-card">
+                         <img src="images/boids.jpg" alt="Boids and Bees Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>RP2040: Boids & Bees</h3>
+                            <p>Demo video.</p>
+                        </div>
+                    </div>
                 </a>
-            </div>
 
-            <!-- Digital Logic Projects -->
-            <div class="project">
-                <h3>Digital Logic Design Projects</h3>
-                <p>Circuits & Logics examples.</p>
-                 <div class="project-previews-container">
-                    <a href="https://minjk121.github.io/trafficlight/" target="_blank" class="project-preview-link">
-                        <img src="images/trafficlight.png" alt="Traffic Light Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Traffic Light System</span>
-                    </a>
-                    <a href="https://minjk121.github.io/vault-lock/" target="_blank" class="project-preview-link">
-                        <img src="images/lock_1.png" alt="Vault Lock Preview"> <!-- UPDATE IMAGE PATH -->
-                        <span>Vault Lock System</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- CAD Projects -->
-            <div class="project">
-                <h3>CAD Projects</h3>
-                <p>SolidWorks & AutoCAD examples.</p>
-                <a href="https://minjk121.github.io/cadprojects/" target="_blank" class="project-preview-link">
-                    <img src="images/spinner.png" alt="CAD Spinner Preview"> <!-- UPDATE IMAGE PATH -->
-                    <span>View CAD Projects</span>
+                <!-- Microcontroller: PID Control Card -->
+                 <a href="https://youtu.be/TbDa0rs1rJg" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                         <img src="images/pid.jpg" alt="PID Control Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>RP2040: PID Control</h3>
+                            <p>Demo video.</p>
+                        </div>
+                    </div>
                 </a>
-            </div>
+
+                <!-- Fast Robots Card -->
+                 <a href="https://minjk121.github.io/ECE4960/" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                         <img src="images/robot.jpeg" alt="Fast Robot Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>Fast Robots Project</h3>
+                            <p>Autonomous car webpage (ECE4960).</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- TODDLE Card -->
+                <a href="https://minjk121.github.io/toddle/" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                         <img src="images/toddle.png" alt="TODDLE Project Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>AI Project: TODDLE</h3>
+                            <p>Break Through AI x Google project page.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Digital Logic: Traffic Light Card -->
+                <a href="https://minjk121.github.io/trafficlight/" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                         <img src="images/trafficlight.png" alt="Traffic Light Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>Digital Logic: Traffic Light</h3>
+                            <p>System design project page.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Digital Logic: Vault Lock Card -->
+                 <a href="https://minjk121.github.io/vault-lock/" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                         <img src="images/lock_1.png" alt="Vault Lock Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>Digital Logic: Vault Lock</h3>
+                            <p>System design project page.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- CAD Projects Card -->
+                <a href="https://minjk121.github.io/cadprojects/" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                        <img src="images/spinner.png" alt="CAD Spinner Preview"> <!-- UPDATE IMAGE PATH -->
+                        <div class="card-content">
+                            <h3>CAD Projects</h3>
+                            <p>SolidWorks & AutoCAD examples.</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End of .projects-grid -->
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Minjung Kwon. All rights reserved.</p> <!-- Update year and name -->
+        <p>&copy; 2025 Your Name. All rights reserved.</p> <!-- Update year and name -->
     </footer>
 </body>
 </html>

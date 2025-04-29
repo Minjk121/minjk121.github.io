@@ -54,7 +54,23 @@ main, nav, footer {
     margin: 0;
 }
 
-/* Navigation */
+/* === Updated Link Styles for Dark Theme === */
+
+/* General Link Styling */
+a {
+    color: #ededed; /* Very light grey/off-white for better contrast */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff; /* Pure white on hover */
+    text-decoration: underline; /* Add underline on hover for accessibility */
+}
+
+/* --- Update specific link styles --- */
+
+/* Navigation Links */
 nav ul {
     list-style: none;
     padding: 0;
@@ -68,34 +84,64 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #64b5f6; /* Lighter blue for links */
+    color: #ededed; /* Apply new base color */
     font-weight: bold;
     padding: 0.5em 0;
     position: relative;
     transition: color 0.3s ease;
+    text-decoration: none; /* Ensure nav links don't have default underline */
 }
-/* Add subtle underline effect on hover */
-nav ul li a::after {
+nav ul li a::after { /* Keep the underline animation */
     content: '';
     position: absolute;
     width: 100%;
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #90caf9;
+    background-color: #ffffff; /* Use white for the animated underline */
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
 }
-
 nav ul li a:hover {
-    color: #90caf9; /* Even lighter blue on hover */
+    color: #ffffff; /* White on hover */
+    text-decoration: none; /* Prevent double underline */
 }
-
 nav ul li a:hover::after {
     visibility: visible;
     transform: scaleX(1);
+}
+
+/* Contact Section Links */
+#contact a {
+    color: #ededed; /* Apply new base color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+#contact a:hover {
+    color: #ffffff; /* White on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Resume Button Link (Keep as is or adjust if needed) */
+.btn-resume {
+    background-color: #64b5f6; /* Keep button distinct */
+    color: #1a1a1a; /* Dark text on button */
+    border: none;
+    text-decoration: none; /* Ensure button text isn't underlined */
+}
+.btn-resume:hover {
+    background-color: #90caf9; /* Lighter accent on hover */
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+/* Project Card Links (Defined below, ensure no underline by default) */
+.project-card-link {
+     text-decoration: none; /* Ensure card link itself isn't underlined */
+}
+.project-card-link:hover {
+     text-decoration: none; /* Ensure card link doesn't get underlined on hover */
 }
 
 
@@ -119,7 +165,7 @@ section h2 {
     font-size: 1.8em;
 }
 
-/* Button Styles (for Resume Link) */
+/* General Button Styles (if needed for other buttons) */
 .btn {
     display: inline-block;
     padding: 0.8em 1.5em;
@@ -131,17 +177,7 @@ section h2 {
     text-align: center;
 }
 
-.btn-resume {
-    background-color: #64b5f6; /* Accent color */
-    color: #1a1a1a; /* Dark text on button */
-    border: none;
-}
-
-.btn-resume:hover {
-    background-color: #90caf9; /* Lighter accent on hover */
-    color: #1a1a1a;
-}
-
+/* Resume Button positioning */
 .resume-cta {
     margin-top: 1.5em; /* Space above the button */
     text-align: center; /* Center the button */
@@ -175,16 +211,6 @@ section h2 {
 .contact-list li {
     margin-bottom: 0.8em;
     font-size: 1.1em;
-}
-/* Styling for contact links */
-#contact a {
-    color: #64b5f6;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-#contact a:hover {
-    color: #90caf9;
-    text-decoration: underline;
 }
 
 
@@ -233,68 +259,64 @@ footer {
     section h2 {
         font-size: 1.6em;
     }
+    /* Adjust grid for smaller screens if needed */
+    .projects-grid {
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Slightly smaller min width */
+       gap: 15px;
+    }
 }
 
-/* === Project Page Specific Styles === */
+/* === Project Card Styles (projects.html) === */
 
-/* Container for multiple previews in one project */
-.project-previews-container {
-    display: flex; /* Arrange previews horizontally */
-    flex-wrap: wrap; /* Allow wrapping to next line */
-    gap: 15px; /* Space between preview blocks */
-    margin-top: 1em; /* Space above the previews */
+.projects-grid {
+    display: grid;
+    /* Creates responsive columns: fits as many cards as possible with a min width */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px; /* Space between cards */
+    padding-top: 1em; /* Space below the intro paragraph */
 }
 
-/* Styling for the clickable preview block (link containing image and text) */
-.project-preview-link {
-    display: inline-block; /* Treat as a block but flow inline */
-    text-decoration: none;
-    color: #bdbdbd; /* Lighter grey text */
-    background-color: #3a3a3a; /* Slightly darker background for the block */
-    border: 1px solid #555; /* Subtle border */
-    border-radius: 6px;
-    padding: 10px;
-    text-align: center;
-    width: 160px; /* Fixed width for consistency */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    vertical-align: top; /* Align blocks nicely if they wrap */
+/* .project-card-link is defined above with general link styles */
+
+.project-card {
+    background-color: #2c2c2c; /* Card background */
+    border-radius: 8px;
+    overflow: hidden; /* Ensures image corners are clipped */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 100%; /* Make card fill the link height */
+    display: flex; /* Use flexbox for vertical layout */
+    flex-direction: column; /* Stack image and content vertically */
+    border: 1px solid #444; /* Subtle border */
 }
 
-.project-preview-link:hover {
-    transform: translateY(-3px); /* Slight lift effect */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-    border-color: #64b5f6; /* Highlight border on hover */
-    color: #ffffff; /* White text on hover */
+.project-card-link:hover .project-card { /* Apply hover effect to card via link hover */
+    transform: translateY(-5px); /* Lift card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-/* Styling for the preview image itself */
-.project-preview-link img {
-    display: block; /* Make image a block element */
-    max-width: 100%; /* Ensure image fits within the link block width */
-    height: 100px; /* Fixed height for consistency */
-    object-fit: cover; /* Scale image nicely while covering dimensions */
-    margin: 0 auto 10px auto; /* Center image horizontally, add space below */
-    border-radius: 4px; /* Slightly rounded image corners */
-    border: 1px solid #555; /* Subtle border around image */
+.project-card img {
+    display: block;
+    width: 100%;
+    height: 180px; /* Fixed height for consistent image area */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+    border-bottom: 1px solid #444; /* Separator line */
 }
 
-/* Styling for the text caption below the image */
-.project-preview-link span {
-    display: block; /* Ensure text is on its own line */
-    font-size: 0.9em;
-    line-height: 1.3;
+.card-content {
+    padding: 15px;
+    flex-grow: 1; /* Allows content to fill remaining space */
 }
 
-/* Adjustments for the main project div */
-.project {
-    margin-bottom: 2.5em; /* Keep spacing between projects */
+.card-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    color: #ffffff; /* White title */
 }
 
-.project h3 {
-     margin-bottom: 0.5em; /* Adjust spacing below project title */
-}
-
-.project p {
-     margin-bottom: 1em; /* Adjust spacing below project description */
-     color: #bdbdbd; /* Match tagline color */
+.card-content p {
+    font-size: 0.95em;
+    color: #bdbdbd; /* Lighter grey description */
+    margin-bottom: 0;
+    line-height: 1.4;
 }

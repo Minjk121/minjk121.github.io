@@ -1,1 +1,2 @@
-# minjk121.github
+# Welcome to my new github page.
+## made with perplexity
