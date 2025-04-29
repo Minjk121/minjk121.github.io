@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Developer Portfolio</title> <!-- Change 'Your Name' -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1> <!-- Change 'Your Name' -->
+        <p>Software Developer | Web Enthusiast | Lifelong Learner</p> <!-- Add your tagline -->
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Welcome! I'm a passionate developer focused on creating clean, efficient,
+                and user-friendly web applications. Briefly mention your key skills or interests here.
+                <!-- Add more about yourself -->
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are a few projects I've worked on. Feel free to check them out.</p>
+            <div class="project">
+                <h3>Project Title 1</h3> <!-- Change title -->
+                <p>A short description of the project and the technologies used.</p>
+                <!-- Optional: Add a link -->
+                <!-- <a href="#">View Project/Code</a> -->
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3> <!-- Change title -->
+                <p>Another short description.</p>
+                <!-- <a href="#">View Project/Code</a> -->
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out! You can find me on:</p>
+            <ul>
+                <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li> <!-- Update link -->
+                <li><a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li> <!-- Update link -->
+                <li>Email: your.email@example.com</li> <!-- Update email -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p> <!-- Update year and name -->
+    </footer>
+</body>
+</html>
