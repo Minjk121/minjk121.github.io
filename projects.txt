@@ -204,7 +204,7 @@
                 </a>
 
                 <!-- CAD Projects Card -->
-                <a href="https://minjk121.github.io/cadprojects/" target="_blank" class="project-card-link">
+                <a href="posts/cad.html" class="project-card-link"> <!-- CHANGED href -->
                     <div class="project-card">
                         <img src="images/spinner.png" alt="CAD Spinner Preview"> <!-- UPDATE IMAGE PATH -->
                         <div class="card-content">
