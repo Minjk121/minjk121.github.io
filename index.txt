@@ -40,10 +40,10 @@
                 I gained valuable teaching experience as a Graduate Teaching Assistant for the Master-level course, Design with Embedded Operating Systems (<a href="https://skovira.ece.cornell.edu/ece5725/" target="_blank">ECE5725</a>), and practical industry insights as a Systems Validation Engineering Intern at Intel Programmable Solutions Group (PSG).
             </p>
              <p>
-                Beyond academics and work, I was active on the E-Board at the <a href="https://makerclub.ece.cornell.edu" target="_blank">Cornell Maker Club</a> (<a href="https://youtu.be/vyewIHxMP0Q?si=CcvbVyHYVeficGkh" target="_blank">watch video</a>).
+                Beyond academics and work, I was active on the E-Board at the <a href="https://makerclub.ece.cornell.edu" target="_blank">Cornell Maker Club</a>.
              </p>
             <div class="resume-cta">
-                 <a href="https://minjk121.github.io/about/Resume_Minjung.pdf" target="_blank" class="btn btn-resume">Download My Resume</a> <!-- CHANGE link to your resume PDF -->
+                 <a href="/Resume_Minjung.pdf" target="_blank" class="btn btn-resume">Download My Resume</a> <!-- CHANGE link to your resume PDF -->
             </div>
         </section>
 
