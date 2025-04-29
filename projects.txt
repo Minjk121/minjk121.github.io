@@ -51,7 +51,7 @@
                 <!-- FPGA: Drum Synthesis Card -->
                 <a href="https://youtu.be/Bqm-NOaz5Oo" target="_blank" class="project-card-link">
                     <div class="project-card">
-                        <img src="images/drum.jpg" alt="Drum Synthesis Preview"> <!-- UPDATE IMAGE PATH -->
+                        <img src="images/drum.png" alt="Drum Synthesis Preview"> <!-- UPDATE IMAGE PATH -->
                         <div class="card-content">
                             <h3>FPGA: Drum Synthesis</h3>
                             <p>Multiprocessor implementation video.</p>
@@ -95,7 +95,7 @@
                 <!-- Embedded OS: Article Card -->
                 <a href="https://drive.google.com/file/d/1x7x5IOK-Kil106LvSahxZvkjxLrkRrFR/view?usp=sharing" target="_blank" class="project-card-link">
                     <div class="project-card">
-                         <img src="images/circuitcellar.png" alt="Circuit Cellar Article Preview"> <!-- UPDATE IMAGE PATH -->
+                         <img src="images/circuitcellarpublished.png" alt="Circuit Cellar Article Preview"> <!-- UPDATE IMAGE PATH -->
                         <div class="card-content">
                             <h3>Circuit Cellar Article</h3>
                             <p>Published article on Campus Congestion.</p>
