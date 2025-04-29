@@ -54,8 +54,7 @@
             <ul class="skills-list">
                 <!-- Add your skills below -->
                 <li>Python</li>
-                <li>C/C++</li>
-                <li>JavaScript</li>
+                <li>C</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SystemVerilog</li>
@@ -76,7 +75,7 @@
                 <!-- Optional: Add icons using <i> tags if using Font Awesome -->
                 <li><a href="mailto:mk2592@cornell.edu">Email</a></li> <!-- CHANGE your email -->
                 <li><a href="https://www.linkedin.com/in/minjung-kwon/" target="_blank">LinkedIn</a></li> <!-- CHANGE your LinkedIn profile -->
-                <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li> <!-- CHANGE your-username -->
+                <li><a href="https://github.com/minjk121" target="_blank">GitHub</a></li> <!-- CHANGE your-username -->
             </ul>
         </section>
     </main>
