@@ -320,3 +320,92 @@ footer {
     margin-bottom: 0;
     line-height: 1.4;
 }
+/* === Styles for Blog Post Content === */
+
+.post-content {
+    /* Optional: Add specific container styling if needed */
+    padding: 1em;
+    background-color: #2c2c2c; /* Match section background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 0 auto; /* Center content if needed */
+    max-width: 750px; /* Adjust reading width */
+}
+
+/* Headings within posts */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    color: #ffffff; /* White headings */
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    border-bottom: none; /* Remove default section border if applied */
+}
+.post-content h1 { font-size: 2em; }
+.post-content h2 { font-size: 1.7em; }
+.post-content h3 { font-size: 1.4em; }
+
+/* Paragraphs within posts */
+.post-content p {
+    line-height: 1.7;
+    margin-bottom: 1em;
+    color: #e0e0e0; /* Ensure readability */
+}
+
+/* Code Blocks */
+.post-content pre {
+    background-color: #1e1e1e; /* Darker background for code */
+    color: #d4d4d4; /* Light code text */
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow horizontal scrolling for long lines */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    border: 1px solid #444;
+}
+.post-content code { /* Inline code */
+     background-color: #444;
+     color: #ededed;
+     padding: 0.2em 0.4em;
+     border-radius: 3px;
+     font-family: "Courier New", Courier, monospace;
+     font-size: 0.9em;
+}
+.post-content pre code { /* Reset inline style inside code blocks */
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: inherit; /* Inherit size from <pre> */
+}
+
+
+/* Lists within posts */
+.post-content ul,
+.post-content ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+.post-content li {
+    margin-bottom: 0.5em;
+}
+
+/* Blockquotes within posts */
+.post-content blockquote {
+    border-left: 4px solid #64b5f6; /* Accent color */
+    margin-left: 0;
+    padding-left: 1em;
+    color: #bdbdbd; /* Slightly muted text */
+    font-style: italic;
+}
+
+/* Links within posts (already styled globally, but check consistency) */
+.post-content a {
+    color: #ededed;
+}
+.post-content a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

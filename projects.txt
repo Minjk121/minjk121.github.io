@@ -26,6 +26,18 @@
             <!-- Grid Container for Project Cards -->
             <div class="projects-grid">
 
+                <!-- Study Log/Blog Post Card -->
+                <a href="https://mjk-study-log.tistory.com" target="_blank" class="project-card-link">
+                    <div class="project-card">
+                        <img src="images/log-icon.png" alt="Study Log Icon">
+                        <!-- If you don't have an image, you can remove the line above -->
+                        <div class="card-content">
+                            <h3>Study Log / Blog</h3>
+                            <p>Personal notes, thoughts, and technical explorations on Tistory.</p>
+                        </div>
+                    </div>
+                </a>
+
                 <!-- MEng Project Card -->
                 <a href="https://drive.google.com/file/d/1-PkryLHeFyuD3ueepHlTen7bXUpKw_Qe/view?usp=drive_link" target="_blank" class="project-card-link">
                     <div class="project-card">
@@ -148,7 +160,7 @@
                 </a>
 
                 <!-- TODDLE Card -->
-                <a href="https://minjk121.github.io/toddle/" target="_blank" class="project-card-link">
+                <a href="posts/toddle.html" class="project-card-link"> <!-- CHANGED href -->
                     <div class="project-card">
                          <img src="images/toddle.png" alt="TODDLE Project Preview"> <!-- UPDATE IMAGE PATH -->
                         <div class="card-content">
@@ -159,7 +171,7 @@
                 </a>
 
                 <!-- Digital Logic: Traffic Light Card -->
-                <a href="https://minjk121.github.io/trafficlight/" target="_blank" class="project-card-link">
+                <a href="posts/traffic.html" class="project-card-link"> <!-- CHANGED href -->
                     <div class="project-card">
                          <img src="images/trafficlight.png" alt="Traffic Light Preview"> <!-- UPDATE IMAGE PATH -->
                         <div class="card-content">
@@ -170,7 +182,7 @@
                 </a>
 
                 <!-- Digital Logic: Vault Lock Card -->
-                 <a href="https://minjk121.github.io/vault-lock/" target="_blank" class="project-card-link">
+                <a href="posts/vault.html" class="project-card-link"> <!-- CHANGED href -->
                     <div class="project-card">
                          <img src="images/lock_1.png" alt="Vault Lock Preview"> <!-- UPDATE IMAGE PATH -->
                         <div class="card-content">
@@ -190,6 +202,33 @@
                         </div>
                     </div>
                 </a>
+
+                <!-- QML Post Card -->
+                <a href="posts/qml.html" class="project-card-link"> <!-- CHANGED href -->
+                    <div class="project-card">
+                        <img src="images/log-icon.png" alt="QML Post Icon">
+                        <div class="card-content">
+                            <h3>Blog Post: QML Notes</h3>
+                            <p>Notes and exploration related to QML.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- LLDB Post Card -->
+                <a href="posts/lldb.html" class="project-card-link"> <!-- CHANGED href -->
+                    <div class="project-card">
+                        <img src="images/log-icon.png" alt="LLDB Post Icon">
+                        <div class="card-content">
+                            <h3>Blog Post: LLDB Debugger</h3>
+                            <p>Notes on using the LLDB debugger.</p>
+                        </div>
+                    </div>
+                </a>
+
+               
+
+               
+
 
             </div> <!-- End of .projects-grid -->
         </section>
