@@ -234,3 +234,67 @@ footer {
         font-size: 1.6em;
     }
 }
+
+/* === Project Page Specific Styles === */
+
+/* Container for multiple previews in one project */
+.project-previews-container {
+    display: flex; /* Arrange previews horizontally */
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    gap: 15px; /* Space between preview blocks */
+    margin-top: 1em; /* Space above the previews */
+}
+
+/* Styling for the clickable preview block (link containing image and text) */
+.project-preview-link {
+    display: inline-block; /* Treat as a block but flow inline */
+    text-decoration: none;
+    color: #bdbdbd; /* Lighter grey text */
+    background-color: #3a3a3a; /* Slightly darker background for the block */
+    border: 1px solid #555; /* Subtle border */
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    width: 160px; /* Fixed width for consistency */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    vertical-align: top; /* Align blocks nicely if they wrap */
+}
+
+.project-preview-link:hover {
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border-color: #64b5f6; /* Highlight border on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Styling for the preview image itself */
+.project-preview-link img {
+    display: block; /* Make image a block element */
+    max-width: 100%; /* Ensure image fits within the link block width */
+    height: 100px; /* Fixed height for consistency */
+    object-fit: cover; /* Scale image nicely while covering dimensions */
+    margin: 0 auto 10px auto; /* Center image horizontally, add space below */
+    border-radius: 4px; /* Slightly rounded image corners */
+    border: 1px solid #555; /* Subtle border around image */
+}
+
+/* Styling for the text caption below the image */
+.project-preview-link span {
+    display: block; /* Ensure text is on its own line */
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+/* Adjustments for the main project div */
+.project {
+    margin-bottom: 2.5em; /* Keep spacing between projects */
+}
+
+.project h3 {
+     margin-bottom: 0.5em; /* Adjust spacing below project title */
+}
+
+.project p {
+     margin-bottom: 1em; /* Adjust spacing below project description */
+     color: #bdbdbd; /* Match tagline color */
+}
