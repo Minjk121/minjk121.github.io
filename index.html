@@ -3,63 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Developer Portfolio</title> <!-- Change 'Your Name' -->
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <title>Minjung Kwon</title>  
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Optional: Add Font Awesome for icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1> <!-- Change 'Your Name' -->
-        <p>Software Developer | Web Enthusiast | Lifelong Learner</p> <!-- Add your tagline -->
+    <!-- Enhanced Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <img src="images/profile.jpg" alt="Your Name" class="profile-pic"> <!-- CHANGE 'images/profile.jpg' to your image path -->
+            <div class="header-text">
+                <h1>Minjung Kwon</h1>  
+                <p class="tagline">Software Developer | ECE Graduate | Part-time Lecturer</p> <!-- CHANGE your tagline -->
+            </div>
+        </div>
     </header>
 
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="projects.html">Projects</a></li> <!-- Link to projects page -->
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <main>
+        <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
             <p>
                 Welcome! I'm a passionate developer focused on creating clean, efficient,
-                and user-friendly web applications. Briefly mention your key skills or interests here.
-                <!-- Add more about yourself -->
+                and user-friendly web applications.
+                <!-- Add a sentence or two about your main focus or passion -->
             </p>
+            <p>
+                I worked as a Graduate Teaching Assistant in a Master-level course, Design with Embedded Operating Systems (<a href="https://skovira.ece.cornell.edu/ece5725/" target="_blank">ECE5725</a>), and gained practical experience as a Systems Validation Engineering Intern at Intel Programmable Solutions Group (PSG).
+            </p>
+             <p>
+                Beyond academics and work, I was active on the E-Board at the <a href="https://makerclub.ece.cornell.edu" target="_blank">Cornell Maker Club</a> (<a href="https://youtu.be/vyewIHxMP0Q?si=CcvbVyHYVeficGkh" target="_blank">watch video</a>).
+             </p>
+            <div class="resume-cta">
+                 <a href="https://minjk121.github.io/about/Resume_Minjung.pdf" target="_blank" class="btn btn-resume">Download My Resume</a> <!-- CHANGE link to your resume PDF -->
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Here are a few projects I've worked on. Feel free to check them out.</p>
-            <div class="project">
-                <h3>Project Title 1</h3> <!-- Change title -->
-                <p>A short description of the project and the technologies used.</p>
-                <!-- Optional: Add a link -->
-                <!-- <a href="#">View Project/Code</a> -->
-            </div>
-            <div class="project">
-                <h3>Project Title 2</h3> <!-- Change title -->
-                <p>Another short description.</p>
-                <!-- <a href="#">View Project/Code</a> -->
-            </div>
-            <!-- Add more projects as needed -->
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Here are some of the technologies and tools I work with:</p>
+            <ul class="skills-list">
+                <!-- Add your skills below -->
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SystemVerilog</li>
+                <li>MATLAB</li>
+                <li>Linux</li>
+                <li>Git</li>
+                <li>FPGA Development</li>
+                <li>Embedded Systems</li>
+                <!-- Add more skills as list items -->
+            </ul>
         </section>
 
+        <!-- Contact Section -->
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out! You can find me on:</p>
-            <ul>
-                <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li> <!-- Update link -->
-                <li><a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li> <!-- Update link -->
-                <li>Email: your.email@example.com</li> <!-- Update email -->
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via Email or connect on LinkedIn!</p>
+            <ul class="contact-list">
+                <!-- Optional: Add icons using <i> tags if using Font Awesome -->
+                <li><a href="mailto:mk2592@cornell.edu">Email</a></li> <!-- CHANGE your email -->
+                <li><a href="https://www.linkedin.com/in/minjung-kwon/" target="_blank">LinkedIn</a></li> <!-- CHANGE your LinkedIn profile -->
+                <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li> <!-- CHANGE your-username -->
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p> <!-- Update year and name -->
+        <p>&copy; 2025 Minjung Kwon. All rights reserved.</p> <!-- Update year and name -->
     </footer>
 </body>
 </html>
