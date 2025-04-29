@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === SET TITLE FOR EACH POST BELOW === -->
+    <title>Post Title - Minjung Kwon</title>
+    <link rel="stylesheet" href="../style.css"> <!-- Adjusted path to style.css -->
+</head>
+<body>
+    <!-- === Include Header/Nav (Same as index.html/projects.html) === -->
+    <header>
+        <h1>Kwon</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">About</a></li> <!-- Adjusted path -->
+            <li><a href="../projects.html">Projects</a></li> <!-- Adjusted path -->
+            <li><a href="../index.html#skills">Skills</a></li> <!-- Adjusted path -->
+            <li><a href="../index.html#contact">Contact</a></li> <!-- Adjusted path -->
+        </ul>
+    </nav>
+
+    <main>
+        <article class="post-content">
+            <!-- === CONVERTED MARKDOWN CONTENT WILL GO HERE === -->
+
+            <!-- Example: -->
+            <!-- <h1>Post Title From Markdown</h1> -->
+            <!-- <p>This is a paragraph from Markdown.</p> -->
+            <!-- <pre><code># Code block example</code></pre> -->
+
+            <!-- === END OF CONVERTED CONTENT === -->
+        </article>
+    </main>
+
+    <!-- === Include Footer (Same as index.html/projects.html) === -->
+    <footer>
+        <p>&copy; 2025 Minjung Kwon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
